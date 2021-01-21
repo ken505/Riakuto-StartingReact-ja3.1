@@ -17,3 +17,4 @@ for (u of users) {
   const town = user?.address?.town ?? '(Somewhere)';
   console.log(`${user.name} lives in ${town}`);
 }
+
