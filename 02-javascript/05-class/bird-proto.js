@@ -1,3 +1,7 @@
+// 書籍では自分で書けるようになる必要はないが、
+// クラス構文の裏で何が動いているかは知っておくべきとのこと。
+// JavaScript の class の実態はコンストラクタ関数。
+
 function Bird(name) {
   this.name = name;
   this.chirp = function () {
